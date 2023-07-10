@@ -11,7 +11,7 @@ const Home = () => {
       <div className="mx-auto max-w-screen-lg flex flex-col items-center justify-center sm:min-h-full  px-4 md:flex-row  ">
         <div className="flex flex-col justify-center h-full  mt-40  md:mt-0  ">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Full Stack Developer.
+            I'm a Frontend Developer.
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
@@ -21,7 +21,12 @@ const Home = () => {
           </p>
 
           <div className="">
-            <Link to="portfolio" smooth duration={500} className="group text-white bg-gradient-to-r w-fit px-6 py-3 my-2 flex items-center rounded-md from-cyan-500 to-blue-500 cursor-pointer ">
+            <Link
+              to="portfolio"
+              smooth
+              duration={500}
+              className="group text-white bg-gradient-to-r w-fit px-6 py-3 my-2 flex items-center rounded-md from-cyan-500 to-blue-500 cursor-pointer "
+            >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
                 <IoIosArrowForward size={25} className="ml-1" />
