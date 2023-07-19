@@ -44,7 +44,7 @@ const SocialLinks = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/abbascv.docx",
+      // href: "/abbascv.docx",
       style: "rounded-br-md",
       download: true,
     },
