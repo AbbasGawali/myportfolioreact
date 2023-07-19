@@ -1,23 +1,34 @@
-import React from "react"; 
+import React from "react";
 import firebase from "../images/portfolioassets/firebase.png";
+import diceroll from "../images/portfolioassets/diceroll.png";
+import mba from "../images/portfolioassets/mba.png";
+import todo from "../images/portfolioassets/todo.png";
 
 const Portfolio = () => {
   const portfoliolinks = [
     {
       id: 1,
-      src: firebase,
+      src: diceroll,
+      demo: "https://abbasdiceroll.netlify.app/",
+      code: "https://github.com/AbbasGawali/diceroll",
     },
     {
       id: 2,
       src: firebase,
+      demo: "https://firebasecontact1.netlify.app/",
+      code: "https://github.com/AbbasGawali/firebasecontacts",
     },
     {
       id: 3,
-      src: firebase,
+      src: mba,
+      demo: "https://abbasmbachaiwalaclone.netlify.app/",
+      code: "https://github.com/AbbasGawali/mbachaiwalaclone",
     },
     {
       id: 4,
-      src: firebase,
+      src: todo,
+      demo: "https://abbastodoapp.netlify.app/login",
+      code: "https://github.com/AbbasGawali/merntodo",
     },
     {
       id: 5,
@@ -54,10 +65,14 @@ const Portfolio = () => {
               <img src={item.src} alt="" />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-0 py-0 sm:px-6 sm:py-3 m-4 duration-200 hover:scale-105">
-                  Demo
+                  <a href={item.demo} target="_blank" rel="noreferrer">
+                    Demo
+                  </a>
                 </button>
                 <button className="w-1/2 px-0 py-0 sm:px-6 sm:py-3 m-4 duration-200 hover:scale-105">
-                  Code
+                  <a href={item.code} target="_blank" rel="noreferrer">
+                    Code
+                  </a>
                 </button>
               </div>
             </div>
