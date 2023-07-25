@@ -11,7 +11,7 @@ const Home = () => {
       <div className="mx-auto max-w-screen-lg flex flex-col items-center justify-center sm:min-h-full  px-4 md:flex-row  ">
         <div className="flex flex-col justify-center h-full  mt-40  md:mt-0  ">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Frontend Developer.
+            I'm a MERN Developer.
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             Meet our talented MERN stack developer, a passionate individual with
