@@ -3,6 +3,7 @@ import firebase from "../images/portfolioassets/firebase.png";
 import diceroll from "../images/portfolioassets/diceroll.png";
 import mba from "../images/portfolioassets/mba.png";
 import todo from "../images/portfolioassets/todo.png";
+import reactTailwind from "../images/portfolioassets/reactTailwind.png";
 
 const Portfolio = () => {
   const portfoliolinks = [
@@ -14,9 +15,9 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: firebase,
-      demo: "https://firebasecontact1.netlify.app/",
-      code: "https://github.com/AbbasGawali/firebasecontacts",
+      src: reactTailwind,
+      demo: "https://abbastailwindreact1.netlify.app/",
+      code: "https://github.com/AbbasGawali/tailwindproject1",
     },
     {
       id: 3,
@@ -33,6 +34,8 @@ const Portfolio = () => {
     {
       id: 5,
       src: firebase,
+      demo: "https://firebasecontact1.netlify.app/",
+      code: "https://github.com/AbbasGawali/firebasecontacts",
     },
     {
       id: 6,

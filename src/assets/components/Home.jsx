@@ -14,10 +14,10 @@ const Home = () => {
             I'm a Frontend Developer.
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-            nobis. ipsum dolor sit amet consectetur adipisicing elit. Earum
-            fugit similique tenetur! Lorem ipsum dolor sit, amet consectetur
-            adipisicing.
+            Meet our talented MERN stack developer, a passionate individual with
+            a deep affection for MERN development! Equipped with a normal
+            knowledge of MERN technologies, I encompass the entire web
+            development spectrum from front to back.
           </p>
 
           <div className="">

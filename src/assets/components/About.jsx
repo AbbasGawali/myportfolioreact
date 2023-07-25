@@ -7,7 +7,7 @@ const About = () => {
       className="w-full h-full 
       md
       bg-gradient-to-b from-gray-800 to-black text-white "
-      
+
       // md:h-screen
     >
       <div className="max-w-screen-lg  lg:py-40 p-4 mx-auto flex flex-col justify-center w-full h-full">
@@ -17,21 +17,19 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui
-          laudantium commodi architecto ipsum, minus alias labore magnam, ea
-          dignissimos nesciunt ullam error fuga ratione. Voluptates quam unde
-          quidem mollitia amet ipsum quisquam nobis labore. Maiores, ea? Eveniet
-          enim, voluptates debitis fugiat quisquam commodi a aliquam, quos
-          eligendi ipsa cumque tempora.
+          MERN, which stands for MongoDB, Express.js, React, and Node.js, is the
+          playground where my creativity and expertise intertwine. With
+          proficiency in these core technologies, I effortlessly bring ideas to
+          life, crafting dynamic and responsive web applications that captivate
+          users.
         </p>
         <br />
         <p className="text-xl ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quam
-          temporibus veniam! Enim officiis repellat repudiandae sapiente autem
-          quibusdam in iusto a excepturi. Quas magnam cumque, labore, aliquam
-          natus porro omnis blanditiis totam, saepe eveniet delectus corporis?
-          Ipsa natus, adipisci, deleniti cum at architecto veritatis vitae dolor
-          officia itaque iste.
+          My love for MERN development goes beyond the typical 9-to-5 routine;
+          it's a constant source of inspiration and motivation. Whether I'm
+          refining database structures in MongoDB or optimizing server
+          performance with Express.js, the joy of coding remains an ever-present
+          companion.
         </p>
       </div>
     </div>
